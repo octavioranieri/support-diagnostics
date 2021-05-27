@@ -55,7 +55,6 @@ crashlytics-build.properties
 ### Eclipse ###
 *.pydevproject
 .metadata
-.gradle
 bin/
 tmp/
 *.tmp
@@ -90,6 +89,9 @@ local.properties
 # TeXlipse plugin
 .texlipse
 
+# Gradle
+.gradle
+build
 
 ### Maven ###
 target/
@@ -102,4 +104,3 @@ dependency-reduced-pom.xml
 buildNumber.properties
 
 .DS_Store
-
