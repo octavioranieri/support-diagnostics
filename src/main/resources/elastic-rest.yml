@@ -200,7 +200,7 @@ fielddata_stats:
 
 geoip_stats:
   versions:
-    ">= 7.13.0": "/_ingest/geoip/stats"
+    ">= 7.13.0": "/_ingest/geoip/stats?pretty"
 
 index_templates:
   retry: true
